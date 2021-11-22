@@ -1,0 +1,261 @@
+SELECT 
+    CAST(ride_id AS STRING),
+    TRIM(CAST(rideable_type AS STRING)),
+    CAST(started_at AS DATETIME),
+    CAST(ended_at AS DATETIME),
+    TRIM(CAST(start_station_name AS STRING)),
+    CAST(start_station_id AS STRING),
+    TRIM(CAST(end_station_name AS STRING)),
+    CAST(end_station_id AS STRING),
+    CAST(start_lat AS INTEGER),
+    CAST(start_lng AS INTEGER),
+    CAST(end_lat AS INTEGER),
+    CAST(end_lng AS INTEGER),
+    TRIM(member_casual),
+    (ended_at - started_at) AS ride_length,
+    day_of_week,
+FROM `capstone-331221.Cyclistic.csv01`
+WHERE NOT (start_station_name like "TEST") AND 
+NOT (end_station_name like "TEST")
+
+UNION ALL
+ 
+SELECT 
+    CAST(ride_id AS STRING),
+    TRIM(CAST(rideable_type AS STRING)),
+    CAST(started_at AS DATETIME),
+    CAST(ended_at AS DATETIME),
+    TRIM(CAST(start_station_name AS STRING)),
+    CAST(start_station_id AS STRING),
+    TRIM(CAST(end_station_name AS STRING)),
+    CAST(end_station_id AS STRING),
+    CAST(start_lat AS INTEGER),
+    CAST(start_lng AS INTEGER),
+    CAST(end_lat AS INTEGER),
+    CAST(end_lng AS INTEGER),
+    TRIM(member_casual),
+    (ended_at - started_at) AS ride_length,
+    day_of_week,
+FROM `capstone-331221.Cyclistic.csv02`
+WHERE NOT (start_station_name like "TEST") AND 
+NOT (end_station_name like "TEST")
+
+UNION ALL
+
+SELECT 
+    CAST(ride_id AS STRING),
+    TRIM(CAST(rideable_type AS STRING)),
+    CAST(started_at AS DATETIME),
+    CAST(ended_at AS DATETIME),
+    TRIM(CAST(start_station_name AS STRING)),
+    CAST(start_station_id AS STRING),
+    TRIM(CAST(end_station_name AS STRING)),
+    CAST(end_station_id AS STRING),
+    CAST(start_lat AS INTEGER),
+    CAST(start_lng AS INTEGER),
+    CAST(end_lat AS INTEGER),
+    CAST(end_lng AS INTEGER),
+    TRIM(member_casual),
+    (ended_at - started_at) AS ride_length,
+    day_of_week,
+FROM `capstone-331221.Cyclistic.csv03`
+WHERE NOT (start_station_name like "TEST") AND 
+NOT (end_station_name like "TEST")
+
+UNION ALL
+
+SELECT 
+    CAST(ride_id AS STRING),
+    TRIM(CAST(rideable_type AS STRING)),
+    CAST(started_at AS DATETIME),
+    CAST(ended_at AS DATETIME),
+    TRIM(CAST(start_station_name AS STRING)),
+    CAST(start_station_id AS STRING),
+    TRIM(CAST(end_station_name AS STRING)),
+    CAST(end_station_id AS STRING),
+    CAST(start_lat AS INTEGER),
+    CAST(start_lng AS INTEGER),
+    CAST(end_lat AS INTEGER),
+    CAST(end_lng AS INTEGER),
+    TRIM(member_casual),
+    (ended_at - started_at) AS ride_length,
+    day_of_week,
+FROM `capstone-331221.Cyclistic.csv04`
+WHERE NOT (start_station_name like "TEST") AND 
+NOT (end_station_name like "TEST")
+
+UNION ALL
+
+SELECT 
+    CAST(ride_id AS STRING),
+    TRIM(CAST(rideable_type AS STRING)),
+    CAST(started_at AS DATETIME),
+    CAST(ended_at AS DATETIME),
+    TRIM(CAST(start_station_name AS STRING)),
+    CAST(start_station_id AS STRING),
+    TRIM(CAST(end_station_name AS STRING)),
+    CAST(end_station_id AS STRING),
+    CAST(start_lat AS INTEGER),
+    CAST(start_lng AS INTEGER),
+    CAST(end_lat AS INTEGER),
+    CAST(end_lng AS INTEGER),
+    TRIM(member_casual),
+    (ended_at - started_at) AS ride_length,
+    day_of_week,
+FROM `capstone-331221.Cyclistic.csv05`
+WHERE NOT (start_station_name like "TEST") AND 
+NOT (end_station_name like "TEST")
+
+UNION ALL
+
+SELECT 
+    CAST(ride_id AS STRING),
+    TRIM(CAST(rideable_type AS STRING)),
+    CAST(started_at AS DATETIME),
+    CAST(ended_at AS DATETIME),
+    TRIM(CAST(start_station_name AS STRING)),
+    CAST(start_station_id AS STRING),
+    TRIM(CAST(end_station_name AS STRING)),
+    CAST(end_station_id AS STRING),
+    CAST(start_lat AS INTEGER),
+    CAST(start_lng AS INTEGER),
+    CAST(end_lat AS INTEGER),
+    CAST(end_lng AS INTEGER),
+    TRIM(member_casual),
+    (ended_at - started_at) AS ride_length,
+    day_of_week,
+FROM `capstone-331221.Cyclistic.csv06`
+WHERE NOT (start_station_name like "TEST") AND 
+NOT (end_station_name like "TEST")
+
+UNION ALL
+
+SELECT 
+    CAST(ride_id AS STRING),
+    TRIM(CAST(rideable_type AS STRING)),
+    CAST(started_at AS DATETIME),
+    CAST(ended_at AS DATETIME),
+    TRIM(CAST(start_station_name AS STRING)),
+    CAST(start_station_id AS STRING),
+    TRIM(CAST(end_station_name AS STRING)),
+    CAST(end_station_id AS STRING),
+    CAST(start_lat AS INTEGER),
+    CAST(start_lng AS INTEGER),
+    CAST(end_lat AS INTEGER),
+    CAST(end_lng AS INTEGER),
+    TRIM(member_casual),
+    (ended_at - started_at) AS ride_length,
+    day_of_week,
+FROM `capstone-331221.Cyclistic.csv07`
+WHERE NOT (start_station_name like "TEST") AND 
+NOT (end_station_name like "TEST")
+
+UNION ALL
+
+SELECT 
+    CAST(ride_id AS STRING),
+    TRIM(CAST(rideable_type AS STRING)),
+    CAST(started_at AS DATETIME),
+    CAST(ended_at AS DATETIME),
+    TRIM(CAST(start_station_name AS STRING)),
+    CAST(start_station_id AS STRING),
+    TRIM(CAST(end_station_name AS STRING)),
+    CAST(end_station_id AS STRING),
+    CAST(start_lat AS INTEGER),
+    CAST(start_lng AS INTEGER),
+    CAST(end_lat AS INTEGER),
+    CAST(end_lng AS INTEGER),
+    TRIM(member_casual),
+    (ended_at - started_at) AS ride_length,
+    day_of_week,
+FROM `capstone-331221.Cyclistic.csv08`
+WHERE NOT (start_station_name like "TEST") AND 
+NOT (end_station_name like "TEST")
+
+UNION ALL
+
+SELECT 
+    CAST(ride_id AS STRING),
+    TRIM(CAST(rideable_type AS STRING)),
+    CAST(started_at AS DATETIME),
+    CAST(ended_at AS DATETIME),
+    TRIM(CAST(start_station_name AS STRING)),
+    CAST(start_station_id AS STRING),
+    TRIM(CAST(end_station_name AS STRING)),
+    CAST(end_station_id AS STRING),
+    CAST(start_lat AS INTEGER),
+    CAST(start_lng AS INTEGER),
+    CAST(end_lat AS INTEGER),
+    CAST(end_lng AS INTEGER),
+    TRIM(member_casual),
+    (ended_at - started_at) AS ride_length,
+    day_of_week,
+FROM `capstone-331221.Cyclistic.csv09`
+WHERE NOT (start_station_name like "TEST") AND 
+NOT (end_station_name like "TEST")
+
+UNION ALL
+
+SELECT 
+    CAST(ride_id AS STRING),
+    TRIM(CAST(rideable_type AS STRING)),
+    CAST(started_at AS DATETIME),
+    CAST(ended_at AS DATETIME),
+    TRIM(CAST(start_station_name AS STRING)),
+    CAST(start_station_id AS STRING),
+    TRIM(CAST(end_station_name AS STRING)),
+    CAST(end_station_id AS STRING),
+    CAST(start_lat AS INTEGER),
+    CAST(start_lng AS INTEGER),
+    CAST(end_lat AS INTEGER),
+    CAST(end_lng AS INTEGER),
+    TRIM(member_casual),
+    (ended_at - started_at) AS ride_length,
+    day_of_week,
+FROM `capstone-331221.Cyclistic.csv10`
+WHERE NOT (start_station_name like "TEST") AND 
+NOT (end_station_name like "TEST")
+
+UNION ALL
+
+SELECT 
+    CAST(ride_id AS STRING),
+    TRIM(CAST(rideable_type AS STRING)),
+    CAST(started_at AS DATETIME),
+    CAST(ended_at AS DATETIME),
+    TRIM(CAST(start_station_name AS STRING)),
+    CAST(start_station_id AS STRING),
+    TRIM(CAST(end_station_name AS STRING)),
+    CAST(end_station_id AS STRING),
+    CAST(start_lat AS INTEGER),
+    CAST(start_lng AS INTEGER),
+    CAST(end_lat AS INTEGER),
+    CAST(end_lng AS INTEGER),
+    TRIM(member_casual),
+    (ended_at - started_at) AS ride_length,
+    day_of_week,
+FROM `capstone-331221.Cyclistic.csv11`
+WHERE NOT (start_station_name like "TEST") AND 
+NOT (end_station_name like "TEST")
+
+UNION ALL
+
+SELECT 
+    CAST(ride_id AS STRING),
+    TRIM(CAST(rideable_type AS STRING)),
+    CAST(started_at AS DATETIME),
+    CAST(ended_at AS DATETIME),
+    TRIM(CAST(start_station_name AS STRING)),
+    CAST(start_station_id AS STRING),
+    TRIM(CAST(end_station_name AS STRING)),
+    CAST(end_station_id AS STRING),
+    CAST(start_lat AS INTEGER),
+    CAST(start_lng AS INTEGER),
+    CAST(end_lat AS INTEGER),
+    CAST(end_lng AS INTEGER),
+    TRIM(member_casual),
+    (ended_at - started_at) AS ride_length,
+    day_of_week,
+FROM `capstone-331221.Cyclistic.csv12`
+WHERE NOT (start_station_name like "TEST") AND 
+NOT (end_station_name like "TEST");
